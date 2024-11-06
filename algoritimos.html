@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="1.png" type="image/png">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>MCG web Solutions</title>
+</head>
+
+<body>
+    <div class="box">
+        <header>
+            <nav>
+                <b>
+                    <a href="./index.html">Início</a>
+                    <a href="./eletronica.html">Eletrônica</a>
+                    <a href="./banco.html">Banco de dados</a>
+                    <a href="./algoritimos.html">Algoritimos e Fluxograma</a>
+                    <a href="./redes.html">Redes</a>
+                    <a href="./programa.html">Programação</a>
+                    
+                </b>
+            </nav>
+        </header>
+        <main>
+            <h1>Algoritimos e Fluxograma</h1>
+            <hr>
+            <p>
+                Bem-vindo ao nosso espaço dedicado à Algoritimos e Fluxograma!
+            </p>
+            <hr>
+           
+            <h1>Aqui a baixo temos exemplo dos algoritmos buble Sort, insertion sort e selection sort em fluxograma</h1>
+        
+                
+                <!-- GERAÇÃO DE MATRIZ -->
+                <div class="sort-div">
+    
+                    <p class="subtitle-main">Método Insertion Sort</p>
+    
+                    <p class="text-main">Clique no botão "Gerar"<br>para uma matriz aleatória ser gerada.</p>
+                    <button onclick="generateArray1()">Gerar</button>
+        
+                    <div id="respostaIns1"></div>
+    
+                </div>
+                
+                <!-- ORDENAÇÃO CRESCENTE -->
+                <div class="sort-div">
+    
+                    <p class="text-main">Clique no botão "Ordenar"<br>para matriz ficar ordenada ordenada.</p>
+                    <button onclick="insertionSort()">Ordenar</button>
+        
+                    <div id="respostaIns2"></div>
+    
+                </div>
+    
+                <!-- ORDENAÇÃO DECRESCENTE -->
+                <div class="sort-div">
+    
+                    <p class="text-main">Clique no botão "Ordenar Inverso."<br>para a matriz ficar ordenada ao contrário</p>
+                    <button onclick="reverseInsertionSort()">Ordenar Inverso.</button>
+        
+                    <div id="respostaIns3"></div>
+    
+                </div>
+    
+            </section>
+              <hr>
+            <!-- ALGORITMO SELECTION SORT -->
+            <section class="alg-section">
+    
+                
+                <!-- GERAÇÃO DE MATRIZ -->
+                <div class="sort-div">
+    
+                    <p class="subtitle-main">Método Selection Sort</p>
+                    
+                    <p class="text-main">Clique no botão "Gerar"<br>para uma matriz aleatória ser gerada.</p>
+                    <button onclick="generateArray2()">Gerar</button>
+        
+                    <div id="respostaSele1"></div>
+    
+                </div>
+    
+                <!-- ORDENAÇÃO CRESCENTE -->
+                <div class="sort-div">
+    
+                    <p class="text-main">Clique no botão "Ordenar"<br>para matriz ficar ordenada ordenada.</p>
+                    <button onclick="selectionSort()">Ordenar</button>
+        
+                    <div id="respostaSele2"></div>
+    
+                </div>
+    
+                <!-- ORDENAÇÃO DECRESCENTE -->
+                <div class="sort-div">
+    
+                    <p class="text-main">Clique no botão "Ordenar Inverso."<br>para a matriz ficar ordenada ao contrário.</p>
+                    <button onclick="reverseSelectionSort()">Ordenar Inverso.</button>
+        
+                    <div id="respostaSele3"></div>
+    
+                </div>
+    
+            </section>
+              <hr>
+            <!-- ALGORITMO BUBBLE SORT -->
+            <section class="alg-section">
+                
+                <!-- GERAÇÃO DE MATRIZ -->
+                <div class="sort-div">
+    
+                    <p class="subtitle-main">Método Bubble Sort</p>
+    
+                    <p class="text-main">Clique no botão "Gerar"<br>para uma matriz aleatória ser gerada.</p>
+                    <button onclick="generateArray3()">Gerar</button>
+        
+                    <div id="respostaBubb1"></div>
+    
+                </div>
+    
+                <!-- ORDENAÇÃO CRESCENTE -->
+                <div class="sort-div">
+    
+                    <p class="text-main">Clique no botão "Ordenar"<br>para matriz ficar ordenada ordenada.</p>
+                    <button onclick="bubbleSort()">Ordenar</button>
+        
+                    <div id="respostaBubb2"></div>
+    
+                </div>
+    
+                <!-- ORDENAÇÃO DECRESCENTE -->
+                <div class="sort-div">
+    
+                    <p class="text-main">Clique no botão "Ordenar Inverso."<br>para a matriz ficar ordenada ao contrári</p>
+                    <button onclick="reverseBubbleSort()">Ordenar Inverso.</button>
+        
+                    <div id="respostaBubb3"></div>
+    
+                </div>
+                <hr>
+                   <br><br><br>
+            </section>
+        
+        </main>
+        <footer>
+            <small>Dev: Manuela Cristina Torres Guimarães</small>
+        </footer>
+    </div>
+</body>
+
+</html>

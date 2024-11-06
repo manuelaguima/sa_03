@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="1.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>MCG web Solutions</title>
+</head>
+
+<body>
+    <div class="box">
+        <header>
+            <nav>
+                <b>
+                    <a href="./index.html">Início</a>
+                    <a href="./eletronica.html">Eletrônica</a>
+                    <a href="./banco.html">Banco de dados</a>
+                    <a href="./algoritimos.html">Algoritimos e Fluxograma</a>
+                    <a href="./redes.html">Redes</a>
+                    <a href="./programa.html">Programação</a>
+                    
+                </b>
+            </nav>
+        </header>
+        <main>
+            <h1>Banco de Dados</h1>
+            <hr>
+            <p>
+                Bem-vindo ao nosso espaço dedicado à Banco de Dados! Aqui apresentamos todos os nossos trabalhos com imagens especificando cada projeto.  Nossos projetos são feitos de acordo com o que o cliente solicita e a baixo temos expecifidamente explicando banco de dados passo á passo.
+            </p>
+            <hr>
+            <div class="box2">
+                <img class="imagem" src="POST ORCAMENTO.png" alt="paineis solares" height="250px" width="auto">
+                <img class="imagem" src="paineis.png" alt="" height="250px" width="auto">
+            </div>
+            <h1>O que é um Banco de dados?</h1>
+
+            <hr>
+            <p>Bom vamos começar a te explicar o que é um banco de dados.
+                Um banco de dados é um sistema organizado para armazenar, gerenciar e recuperar dados de forma estruturada. Ele permite que múltiplos usuários acessem, manipulem e organizem informações em tempo real, facilitando operações, análises e suporte a processos de decisão. Os bancos de dados podem ser classificados em diferentes tipos, como relacionais e não relacionais.
+            </p>
+            
+
+            <h2>O que é um banco de dados relacional?</h2>
+            <p>
+                Um banco de dados relacional é um tipo de banco de dados estruturado que organiza as informações em tabelas (ou entidades), que possuem linhas e colunas, onde cada tabela representa um conjunto de dados relacionados. As tabelas podem se relacionar umas com as outras por meio de chaves primárias e chaves estrangeiras. Exemplos de bancos de dados relacionais incluem MySQL, PostgreSQL, Oracle, e SQL Server.
+            </p>
+               
+              <h3>As características principais dos bancos de dados relacionais são:</h3>
+            <ul>
+                <li><span>Modelo estruturado</span> baseado em tabelas.</li><br>
+                <li><span>Linguagem SQL</span> (Structured Query Language) para manipulação e consulta de dados.</li><br>
+                <li><span>Integridade referencial </span> por meio de relações entre tabelas, o que garante a consistência dos dados.</li><br>
+            </ul>
+            <br><br>
+            <h2>O que é um banco de dados não relacional?</h2>
+            <p>
+                Um banco de dados não relacional, também conhecido como NoSQL, organiza dados de forma diferente dos bancos de dados relacionais. Em vez de tabelas, eles utilizam estruturas como documentos, grafos, colunas e armazenamento de chaves-valor. Esse tipo de banco de dados é frequentemente usado em aplicativos que exigem alta flexibilidade e escala, como redes sociais e sistemas de recomendação.
+            </p>
+               
+              <h3>Os tipos comuns de bancos de dados não relacionais são:</h3>
+            <ul>
+                <li><span>Documentos:</span> Exemplo (MongoDB, CouchDB), organizam os dados em documentos JSON ou BSON.</li><br>
+                <li><span>Colunas:</span> Exemplo: (Cassandra, HBase), organizam dados em colunas para processamento eficiente de grandes volumes de dados.</li><br>
+                <li><span>Grafos:</span> Exemplo: (Neo4j), modelam dados com nós e arestas para capturar relações complexas.</li><br>
+                <li><span>Chaves-valor:</span> Exemplo: (Redis, DynamoDB), Associam chaves únicas a valores, permitindo acesso rápido a dados específicos.</li><br>
+            </ul>
+
+            <p>
+                Agora aqui a baixo temos os modelos de bancos de dados explicando cada um.
+            </p>
+
+            <h1>Diagrama conceitual DER</h1>
+            <hr>
+            <p>
+                O Diagrama Entidade-Relacionamento (DER) é uma representação gráfica do modelo conceitual de um banco de dados. Ele descreve as entidades (tabelas) e seus relacionamentos, sem especificar detalhes técnicos. Esse diagrama é amplamente utilizado na fase inicial de modelagem de dados, ajudando a entender e definir as necessidades de dados do sistema de forma visual.
+            </p>
+            <h3>Componentes principais de um DER:</h3>
+            <ul>
+                <li><span>Entidades:</span> Representam objetos ou conceitos, como "Cliente" ou "Pedido".</li><br>
+                <li><span>Atributos:</span>  Características de cada entidade, como "nome" ou "data".</li><br>
+                <li><span>Relacionamentos: </span> Conexões entre entidades, que podem ser de um para um, um para muitos, ou muitos para muitos.</li><br>
+            </ul>
+            <div class="box2">
+                <img class="imagem" src="der.png" alt="paineis solares" height="250px" width="auto">
+                <img class="imagem" src="paineis.png" alt="" height="250px" width="auto">
+            </div>
+
+            <h1>Diagrama lógico MER</h1>
+            <hr>
+            <p>
+                O Modelo Entidade-Relacionamento (MER) lógico é um diagrama mais detalhado do que o DER, pois representa a estrutura lógica do banco de dados, já com detalhes específicos para a implementação em um sistema de banco de dados. Ele inclui tipos de dados, restrições e chaves, o que o torna mais próximo da estrutura final do banco de dados.
+            </p>
+            <h3>Componentes principais de um MER:</h3>
+            <ul>
+                <li><span>Entidades:</span> São representadas por tabelas no banco de dados e correspondem a objetos importantes no sistema, como “Cliente”, “Produto” ou “Pedido”.</li><br>
+                <li><span>Atributos:</span> Descrevem as propriedades de cada entidade e, no MER, também incluem especificações técnicas, como o tipo de dado (inteiro, texto, data, etc.) e tamanho. Por exemplo:
+                    Para a entidade “Cliente”, os atributos podem incluir “nome_cliente” (texto, até 100 caracteres), “cpf” (número, 11 dígitos), e “data_nascimento” (data).</li><br>
+                <li><span>Relacionamentos: </span>  Representam as associações entre entidades, com detalhes mais técnicos, como cardinalidade (1:1, 1,N) e grau de relacionamento (binário, ternário). No MER, os relacionamentos são ajustados para refletir como as chaves primárias e estrangeiras se conectam nas tabelas.</li><br>
+            </ul>
+            <div class="box2">
+                <img class="imagem" src="mer.png" alt="paineis solares" height="250px" width="auto">
+                <img class="imagem" src="paineis.png" alt="" height="250px" width="auto">
+            </div>
+            
+
+            <h1>Dicionário de Dados</h1>
+            <hr>
+            <p>
+                Um dicionário de dados é um documento ou uma ferramenta que descreve os dados em uma base de dados, especificando detalhes sobre cada campo ou elemento, como nome, tipo de dado, formato, e outras características que ajudam a entender e usar os dados corretamente. Ele é essencial em projetos de banco de dados e análise de dados, pois serve como um guia para desenvolvedores, analistas, e outros profissionais.
+            </p>
+            <h3>Por que o dicionário de dados é importante?</h3>
+            <ul>
+                <li><span>Facilita a comunicação</span> entre equipes, pois documenta os dados de forma padronizada.</li><br>
+                <li><span>Melhora a qualidade dos dados</span>  garantindo que todos sigam os mesmos formatos e restrições.</li><br>
+                <li><span>Apoia a manutenção</span>e evolução da base de dados, já que torna o sistema mais compreensível. </li><br>
+                <li><span>Auxilia na integração</span> de sistemas, ajudando a mapear e traduzir informações entre diferentes bases de dados.</li><br>
+            </ul>
+            <p>Exemplo Simples de um Dicionário de Dados</p>
+            <div class="box2">
+                <img class="imagem" src="dicionario.png" alt="paineis solares" height="250px" width="auto">
+                <img class="imagem" src="paineis.png" alt="" height="250px" width="auto">
+            </div>
+
+        </main>
+        <footer>
+            <small>Dev: Manuela Cristina Torres Guimarães</small>
+        </footer>
+    </div>
+</body>
+
+</html>
